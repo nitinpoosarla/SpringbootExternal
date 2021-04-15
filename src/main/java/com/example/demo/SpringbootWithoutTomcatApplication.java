@@ -23,7 +23,7 @@ public class SpringbootWithoutTomcatApplication {
 	    
 	    @RequestMapping("/hello")
 	    String hello(@PathVariable String name) {
-	        return "Hello, world ";
+	        return "Hello, world data";
 	    }
 	}
 }
