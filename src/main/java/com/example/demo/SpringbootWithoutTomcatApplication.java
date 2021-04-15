@@ -23,7 +23,11 @@ public class SpringbootWithoutTomcatApplication {
 	    
 	    @RequestMapping("/hello")
 	    String hello(@PathVariable String name) {
+<<<<<<< HEAD
 	        return "Hello, world data";
+=======
+	        return "Hello, world data how ";
+>>>>>>> branch 'master' of https://github.com/nitinpoosarla/SpringbootExternal.git
 	    }
 	}
 }
