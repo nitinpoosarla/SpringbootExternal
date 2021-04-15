@@ -24,7 +24,7 @@ public class SpringbootWithoutTomcatApplication {
 	    @RequestMapping("/hello")
 	    String hello(@PathVariable String name) {
 
-	        return "Hello, world data how ";
+	        return "Hello, world data how r u";
 
 	    }
 	}
