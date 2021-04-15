@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @ComponentScan
 @EnableAutoConfiguration
 public class SpringbootWithoutTomcatApplication {
-
+//11d252b1d060c7744ab6d4b5dce2094d9e
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootWithoutTomcatApplication.class, args);
 	}
@@ -23,7 +23,7 @@ public class SpringbootWithoutTomcatApplication {
 	    
 	    @RequestMapping("/hello")
 	    String hello(@PathVariable String name) {
-	        return "Hello, ";
+	        return "Hello, world ";
 	    }
 	}
 }
